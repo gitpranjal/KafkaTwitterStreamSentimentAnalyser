@@ -1,23 +1,21 @@
 
 Run The following screipts:
 
-=====================================================================================
+
 *python -m pip install --upgrade pip*
 
 *pip install -r requirements.txt*
-=====================================================================================
+
 Start the ***kafka zookeper*** service in another terminal:
 
-=======================================================================
 *bin/zookeeper-server-start.sh config/zookeeper.properties*
-=======================================================================
+
 
 
 Start the kafka server with topic "Republic":
 
-=====================================================================================
 *bin/kafka-console-consumer.sh --topic Republicans --bootstrap-server localhost:9092*
-=====================================================================================
+
 
 
 
