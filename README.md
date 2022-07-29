@@ -47,6 +47,14 @@ This would open Kibana's interface and the index that was specified in logstash.
 
 The analysis in this case is the Twitter tweets relating to the topic/Keyword "Republicans" and is avalable in **tweet_analysis.pdf** file in this directory. 
 
+Links to Download:
+**kafka**: https://kafka.apache.org/downloads
+
+**Elastic Search**: https://www.elastic.co/downloads/elasticsearch
+
+**Logstash**: https://www.elastic.co/cn/downloads/logstash
+
+**Kibana**: https://www.elastic.co/downloads/kibana
 
 
 
