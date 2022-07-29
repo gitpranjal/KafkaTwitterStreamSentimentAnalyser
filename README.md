@@ -23,10 +23,14 @@ and add the statement
 Then start the elastic server by:  **bin/elasticsearch**
 
 Next Go to ***Kibana*** directory, delete all the lines in **kibana.yml** and add the folloing lines:
-***server.name: kibana***
-***server.port: 5601***
-***server.host: "0.0.0.0"***
-***elasticsearch.hosts: [ "http://localhost:9200" ]***
+
+**server.name: kibana**
+
+**server.port: 5601**
+
+**server.host: "0.0.0.0"**
+
+**elasticsearch.hosts: [ "http://localhost:9200" ]**
 
 and save
 
