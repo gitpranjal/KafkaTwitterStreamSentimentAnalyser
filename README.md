@@ -1,6 +1,16 @@
+***Apache Kafka Twitter Stream Sentiment Anaysis using ELK stack***
 
-Run The following screipts:
+The application used Twitter Api tweepy to get get continuous stream of tweets to analyse them for sentiment analys. Kafka is being used as a messaging broker service to send the continuous updates to the subscribers that have subscribed on a particular topic. 
 
+In this project we aim at analysing the sentiments of continuous stream of tweets about a keywork. This keyword will set the topic name for the kafka server. And then the kafka producer will send the stream of tweets to the kafka consumer/subscriber that has subscribed to this topic. In this case the subscriber is **logstash** that is a **log collecting pipeline** that will send the messsages/data to **elasticsearch** which is the database storing all the logs/streams' and finally **kibana** will interact with elastic search to do data visualization and analysis. Hence the ELK stack is the subscriber for a topic.
+
+
+
+
+
+HOW TO USE:
+
+Run the following scripts
 
 *python -m pip install --upgrade pip*
 
